@@ -155,8 +155,8 @@ const Myregister = () =>{
                        <div className="container mt-4">
                         <div className="row">
                              <div className="col-lg-3"></div>
-                            <div className="col-lg-6 w-50 border bg-dark text-white p-5">
-                                    <div className="p-4 shadow-lg rounded">
+                            <div className="col-lg-6 w-50 border bg-dark text-white p-3 rounded">
+                                    <div className="p-4 shadow-lg ">
                                      <h2 className="text-center">Create New Account</h2>
                                     
                                     <div className='mb-3'>
