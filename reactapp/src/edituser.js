@@ -11,7 +11,7 @@ const Edituser = () =>{
    
 
     const getuserinfo = () =>{
-        let url = "http://localhost:4444/note/"+userid;
+        let url = "https://note-management-system-backend-okgy.onrender.com/note/"+userid;
         fetch(url)
         .then(response => response.json())
         .then(empinfo =>{
@@ -34,7 +34,7 @@ const Edituser = () =>{
         "id" : userid
        };
      
-       let url= "http://localhost:4444/editnote";
+       let url= "https://note-management-system-backend-okgy.onrender.com/editnote";
        let postoption= {
         headers:{'Content-Type':'application/json'},
         method: "PUT",

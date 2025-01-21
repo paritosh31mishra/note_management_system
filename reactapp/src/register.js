@@ -18,7 +18,7 @@ const Myregister = () =>{
 
     const save = () =>{
 
-       let url = "http://localhost:4444/account";
+       let url = "https://note-management-system-backend-okgy.onrender.com/account";
        let userdata = 
        {
           uname: name,
@@ -42,7 +42,7 @@ const Myregister = () =>{
        .then(responsedata => responsedata.json())
        .then(data => {
         swal("Account Created Successfully !!", "", "success");
-        window.location.href = "http://localhost:3000/#/login";
+        window.location.href = "https://github.com/paritosh31mishra/note_management_system/#/login";
        })
     }
 

@@ -33,7 +33,7 @@ const validate = () => {
   };
 
    const Add = () => {
-    let url = "http://localhost:4444/addnote";
+    let url = "https://note-management-system-backend-okgy.onrender.com/addnote";
     let finaldata =  new Date().toLocaleString() ;
     let notedata = 
     {
@@ -53,7 +53,7 @@ const validate = () => {
     .then(responsedata => responsedata.json())
     .then(data => {
      swal("Note Added Successfully !!", "", "success");
-     window.location.href = "http://localhost:3000/#/";
+     window.location.href = "https://note-management-system-yrlw.onrender.com/#/";
    })
 }
 

@@ -12,7 +12,7 @@ const Details = () =>{
    
 
     const getuserinfo = () =>{
-        let url = "http://localhost:4444/note/"+userid;
+        let url = "https://note-management-system-backend-okgy.onrender.com/note/"+userid;
         fetch(url)
         .then(response => response.json())
         .then(empinfo =>{

@@ -8,7 +8,7 @@ const Header = () =>{
    
     const logout = () =>{
         localStorage.clear();
-        window.location.href="http://localhost:3000/#/"; // it will go to dashboard
+        window.location.href="https://note-management-system-yrlw.onrender.com/#/"; // it will go to dashboard
         window.location.reload(); // it will reload the app. js(window) file
         
         //other method - window.location.href="http://localhost:3000/#/";

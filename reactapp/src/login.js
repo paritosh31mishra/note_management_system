@@ -7,7 +7,7 @@ const Mylogin = () =>{
 
 
   const login = () =>{
-     let url = "http://localhost:4444/account";
+     let url = "https://note-management-system-backend-okgy.onrender.com/account";
      let flag = 0;
      fetch(url)
      .then(response => response.json())
@@ -17,7 +17,7 @@ const Mylogin = () =>{
              {
                 flag = 1;
                 localStorage.setItem("fullname", acntdata.name);
-                window.location.href="http://localhost:3000/#/"
+                window.location.href="https://note-management-system-yrlw.onrender.com/#/"
               window.location.reload();// Reload the page(app.js) after login is success
              }
         })
