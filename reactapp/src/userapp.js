@@ -14,9 +14,9 @@ const UserModule = () => {
 
                     <div className="col-lg-6 text-end">
                         <ul>
-                  <li>  <Link className="  text-light m-1 link" to="/" ><i className='fa fa-user-plus'></i> Create Account</Link></li>
+                  <li>  <Link className="  text-light " to="/" ><i className='fa fa-user-plus'></i> Create Account</Link></li>
                   
-                  <li>   <Link className="text-light link m-1" to="/login"> <i className='fa fa-lock'></i> Login</Link></li>
+                  <li>   <Link className="text-light " to="/login"> <i className='fa fa-lock'></i> Login</Link></li>
                     </ul>
                 </div>
             </div>
