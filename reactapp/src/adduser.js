@@ -62,7 +62,7 @@ const validate = () => {
     <div className="row">
         <div className="col-lg-3"> </div>
         <div className="col-lg-6 text-center border bg-light text-dark p-5 rounded mt-5"> 
-          <h1 className=" text-primary mb-3"> Add Note </h1>
+          <h1 className=" text-dark mb-3"> Add Note </h1>
 
            <table className=' table '>
                <thead>
