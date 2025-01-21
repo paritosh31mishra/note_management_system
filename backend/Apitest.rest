@@ -1,0 +1,51 @@
+###
+POST http://localhost:4444/account
+Content-Type: application/json
+
+{
+     "uname": "name",
+    "umobile" : "mobile",
+    "uemail" : "email",
+    "upassword" : "password" ,
+    "ugender" :  "gender",
+    "ucity" : "city",
+    "ustate" : "keyword",
+    "usource" : "source"
+}
+
+//spacing matter
+
+###
+POST http://localhost:4444/addnote
+Content-Type: application/json
+
+{
+      "title": "Education",
+    "content": "Education is necessary thing. Atleast basic education should be given to every one.",
+    "date": "1/6/2024, 1:37:43 PM"
+    
+}
+
+###
+GET http://localhost:4444/retrievenote
+
+
+
+###
+GET http://localhost:4444/note/659949667647f2ae3c412fda
+
+
+###
+PUT http://localhost:4444/editnote
+Content-Type: application/json
+
+{
+   "_id": "65990a1ac4be2abfdaeacc9d",
+  "title": "feature",
+  "content": "product feature is good. it have many features. more feature increase more prices.",
+  "date": "1/6/2024, 1:37:43 PM"
+}
+
+
+###
+DELETE http://localhost:4444/deletenote/659949667647f2ae3c412fda
