@@ -56,8 +56,8 @@ const Mylogin = () =>{
      <div className="container mt-5">
         <div className="row">
             <div className="col-lg-3"></div>
-            <div className="col-lg-6 w-50 border bg-dark text-white p-5">
-                <div className="border p-4 rounded shadow">
+            <div className="col-lg-6 w-50 border  p-5">
+                <div className="border p-4 rounded shadow bg-dark text-white">
                     <h3 className="text-center"> {console.log("paritosh")} User Login </h3>
                     <div className="mb-4">
                         <label>Email id</label>
