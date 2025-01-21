@@ -9,7 +9,7 @@ const Userlist = () =>{
 
 
     const getusers = () =>{
-        let url = "http://localhost:4444/retrievenote";
+        let url = "https://note-management-system-backend-okgy.onrender.com/retrievenote";
         fetch(url)
         .then(responsedata => responsedata.json())
         .then(data => {    
@@ -28,7 +28,7 @@ const Userlist = () =>{
      }
 
      const deletenote = (id) =>{
-            let url = "http://localhost:4444/deletenote/"+id;
+            let url = "https://note-management-system-backend-okgy.onrender.com/deletenote/"+id;
             let postoption = {method: "DELETE"};
             fetch(url, postoption)
             .then(response => response.json())
