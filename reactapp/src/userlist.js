@@ -58,6 +58,7 @@ const Userlist = () =>{
 
     <div className="row text-center" id="message">
         <div className='col-lg-12'>
+         <div className="table-responsive">
             <table className='table mt-4 table-hover table-bordered rounded'>
                <thead>
                 <tr>
@@ -94,6 +95,7 @@ const Userlist = () =>{
                 }
                </tbody>
             </table>
+</div>
         </div>
 
     </div>
